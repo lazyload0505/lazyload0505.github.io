@@ -1,1 +1,5 @@
-# Tim's blog site v0.3...
+---
+home: true
+bgImage: '/title.jpg'
+isShowTitleInHome: false
+---
