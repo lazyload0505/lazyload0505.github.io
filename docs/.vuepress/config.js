@@ -8,12 +8,12 @@ module.exports = {
         huawei: false,
         authorAvatar: "/tim.jpg",
         sidebar: "auto",
-        author: '王帅王胖子',
+        author: '码农王小胖',
         nav: [
             { text: '首页', link: '/' },
             { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
             { text: '关于小胖', link: '/aboutme' }
-          ],
+        ],
         blogConfig: {
             category: {
                 location: 2,
@@ -30,6 +30,13 @@ module.exports = {
             repo: 'lazyload0505.github.io',
             clientId: '',
             clientSecret: '',
-          }
-    }
+        },
+        markdown: {
+            lineNumbers: true
+        },
+    },
+
+    plugins: [
+        "@vuepress-reco/vuepress-plugin-pagation",
+        "@vuepress-reco/vuepress-plugin-screenfull"]
 }
