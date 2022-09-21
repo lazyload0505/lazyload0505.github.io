@@ -21,6 +21,6 @@
   "homepage": "https://github.com/lazyload0505/lazyload0505.github.io#readme",
   "devDependencies": {
     "vuepress": "^1.2.0",
-    "vuepress-theme-reco": "^1.2.2"
+    "vuepress-theme-reco": "^1.6.14"
   }
 }
